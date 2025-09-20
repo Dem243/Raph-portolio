@@ -1,1 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+}
+.bg{
+    background-color:  #1f2039;
+}
+p{
+font-size: 16px;
+}
+header,
+footer {
+    background: white;
+}
+
+.nav-dems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    padding-top: 10px;
+}
+ a{
+    text-decoration: none;
+}
+
+div.lien{
+    padding: 20px;
+}
+
+/*
+.hero {
+    position: relative;
+    top: 3em;
+    font-weight: 650;
+    font-size: 3em;
+}*/
+
+.img-1{
+    width: 50%;
+
+}
+a:hover{
+    text-decoration: underline;
+    transition: 0, 3s;
+}
+
+h1.fw-bold{
+    color: #C6D3E4;
+}
+
+a.btn, button.btn{
+    background: #C6D3E4
+}
+a.btn:hover, button[type=submit].btn:hover {
+    background: transparent;
+    border: solid 1px #C6D3E4;
+    transition: 0.4s;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+
+.div_raph{
+padding-left: 100px;
+}
+
+.p_raph{
+font-size:15px;
+padding-top: 25px;
+opacity: 0.7;
+}
+.bg-1{
+    width: 23em;
+    }
+.bg-2{
+width: 25em;
+border: solid 1px #C6D3E4;
+border-radius: 10px;
+box-shadow:  10px;
+
+}
+.line-spacing{
+margin: 5px 0;
+}
+
+@media (min-width: 992px) {
+section {
+    padding-block: 30px;
+    padding-inline: 125px;
+}
+
+}
+
+
+.fab{
+    color: #1f2039 !important;
+}
+/*S'applique aux écrans de petites tailles comme de smartphone */
+@media (max-width: 576px) {
+    .bg-1{
+        width: 360px;
+        }
+    .bg-2{
+        width: 350px;
+        }
+/*A modifier plus tard*/
+        .nav-dems  {
+            display: none;
+        }
+        section {
+            padding-block: 30px;
+            padding-inline: 125px;
+        }
+}
